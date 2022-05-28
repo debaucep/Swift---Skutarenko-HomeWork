@@ -872,4 +872,7 @@ while currentNum <= lastNum {
 }
 
 
-// Оператор повторения for ... i 
+// Оператор повторения for ... i
+
+
+var ssss = 1

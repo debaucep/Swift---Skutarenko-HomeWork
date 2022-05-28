@@ -889,6 +889,10 @@ var iExpectVar = 321
 
 // And some more changes!!!
 // And some more changes!!!
+// And some more changes!!!
 
+var iExpectVar2 = 321
 
-
+// And some more changes!!!
+// And some more changes!!!
+// And some more changes!!!

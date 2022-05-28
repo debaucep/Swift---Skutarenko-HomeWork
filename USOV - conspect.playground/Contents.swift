@@ -875,4 +875,6 @@ while currentNum <= lastNum {
 // Оператор повторения for ... i
 
 
-var ssss = 1
+var ssss = 1123
+
+var df = 1123

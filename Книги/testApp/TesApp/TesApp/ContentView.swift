@@ -23,8 +23,3 @@ struct ContentView_Previews: PreviewProvider {
 
 var a: String = "This is a test app for git"
 
-var a: String = "This is a test app for git"
-
-var a: String = "This is a test app for git"
-
-var a: String = "This is a test app for git"

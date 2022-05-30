@@ -874,25 +874,75 @@ while currentNum <= lastNum {
 
 // Оператор повторения for ... i
 
-
-var ssss = 1123
-
-var df = 1123
-var df2 = 1123
+// Код выполняется для каждого элемента в некой последовательности.
 
 
-var newTestings = 123123
-var iExpectVar = 321
+var test123 = "Test123"
+var iterationCount = 0
+
+for i in test123 {
+    iterationCount += 1
+    print (iterationCount, "someText", i)
+}
 
 
-// I have made some changes
 
-// And some more changes!!!
-// And some more changes!!!
-// And some more changes!!!
+// Итерироваться могут Array, Dictionary, Set, Range
 
-var iExpectVar2 = 321
 
-// And some more changes!!!
-// And some more changes!!!
-// And some more changes!!!
+// Array
+
+
+var iterArray = [1, 2, 3, 4, 5]
+
+for i in iterArray {
+    print (i)
+}
+
+
+// Сложение всех элментов Array
+// Тут логика такая же. Создаем пустую переменную и с каждой итерацией добавляем в нее числа
+
+var sumOfElements = 0
+
+for i in iterArray {
+    sumOfElements += i
+}
+
+
+sumOfElements
+
+// Dictionary с ростом людей. Делаем по нему итерации
+
+var arrayDict = ["Dmitry": 1.75, "Kate" : 1.74, "James": 1.88, "Jessica" : 1.55]
+
+
+for (name, height) in arrayDict {
+    print ("\(name), \(height)")
+}
+
+for i in arrayDict {
+    print (i)
+}
+
+
+
+// Set
+
+var iterSet: Set = [1, 2, 3, 4, 5, 6]
+
+for i in iterSet {
+    print (i)
+}
+
+
+// Range
+
+var iterRange = 1...10
+var iterRangeSum = 0
+
+for i in iterRange {
+    iterRangeSum += i
+}
+
+iterRangeSum
